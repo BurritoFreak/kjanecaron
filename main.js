@@ -15,7 +15,7 @@ var icons = {
 
 function init(){
     var rawFile = new XMLHttpRequest();
-    rawFile.open("GET", '/OPEN-THIS-ROUX/TextFields.txt', false);
+    rawFile.open("GET", '/TextFields.txt', false);
     rawFile.onreadystatechange = function ()
     {
         if(rawFile.readyState === 4)
