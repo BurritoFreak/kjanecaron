@@ -58,6 +58,7 @@ body {
 
 .animated-background {
     height: 100%;
+    position: static;
 }
 
 #profilePicture, #profilePicture img {
