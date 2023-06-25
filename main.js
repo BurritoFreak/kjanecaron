@@ -14,7 +14,6 @@ var icons = {
 }
 
 function init(){
-    
     const spreadsheetId = '1RT4VtlcvdJzwfvpl3avl9ryeeJICZKW0BzfKGGmmnOE'
     const parser = new PublicGoogleSheetsParser()
     var links = [];
@@ -24,29 +23,7 @@ function init(){
         });
         populateHTML(links);
         console.log(links)
-        // items should be [{ a: 1, b: 2, c: 3 },{ a: 4, b: 5, c: 6 },{ a: 7, b: 8, c: 9 }]
     })
-    
-    
-    /*
-    var rawFile = new XMLHttpRequest();
-    rawFile.open("GET", 'TextFields.txt', false);
-    rawFile.onreadystatechange = function ()
-    {
-        if(rawFile.readyState === 4)
-        {
-            if(rawFile.status === 200 || rawFile.status == 0)
-            {
-                var allText = rawFile.responseText;
-                const arr = allText.split('\n');
-                console.log(arr);
-                populateHTML(arr);
-            }
-        }
-    }
-    rawFile.send(null);
-    */
-
 }
 
 function populateHTML(arr) {
