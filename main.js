@@ -21,9 +21,8 @@ function init(){
     parser.parse(spreadsheetId).then((items) => {
         items.forEach(link => {
             links.push(`[${link.Logo}][${link.Title}][${link.Link}`);
-        }).then(() => {
+        });
         populateHTML(links);
-        })
         console.log(links)
         // items should be [{ a: 1, b: 2, c: 3 },{ a: 4, b: 5, c: 6 },{ a: 7, b: 8, c: 9 }]
     })
