@@ -14,6 +14,7 @@ var icons = {
 }
 
 function init(){
+    /*
     const spreadsheetId = '1RT4VtlcvdJzwfvpl3avl9ryeeJICZKW0BzfKGGmmnOE'
     const parser = new PublicGoogleSheetsParser()
     var links = [];
@@ -26,6 +27,7 @@ function init(){
         // console.log(links)
         // items should be [{ a: 1, b: 2, c: 3 },{ a: 4, b: 5, c: 6 },{ a: 7, b: 8, c: 9 }]
     })
+    */
     
     
     var rawFile = new XMLHttpRequest();
