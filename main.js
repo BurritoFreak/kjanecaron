@@ -27,7 +27,7 @@ function init(){
         // items should be [{ a: 1, b: 2, c: 3 },{ a: 4, b: 5, c: 6 },{ a: 7, b: 8, c: 9 }]
     })
     
-    /*
+    
     var rawFile = new XMLHttpRequest();
     rawFile.open("GET", 'TextFields.txt', false);
     rawFile.onreadystatechange = function ()
@@ -44,7 +44,7 @@ function init(){
         }
     }
     rawFile.send(null);
-    */
+
 }
 
 function populateHTML(arr) {
