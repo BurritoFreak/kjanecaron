@@ -20,7 +20,7 @@ function init(){
     var links = [];
     parser.parse(spreadsheetId).then((items) => {
         items.forEach(link => {
-            links.push(`[${link.Logo}][${link.Title}][${link.Link}`);
+            links.push(`[${link.Logo}][${link.Title}][${link.Link}]`);
         });
         populateHTML(links);
         console.log(links)
