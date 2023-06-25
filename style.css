@@ -84,6 +84,12 @@ body {
     padding-top: 6%;
 }
 
+#headerpic {
+    width: 25rem;
+    padding-top: 6%;
+    align-items: center;
+}
+
 #links {
     max-width: 675px;
     width: auto;
